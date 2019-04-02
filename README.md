@@ -8,7 +8,7 @@ This lab contains a server with authentication routes that are currently not wor
 - [Travis](https://www.travis-ci.com/401-advanced-javascript-1/lab-11-authentication)
 
 ## Documentation
-- [Jsdocs](localhost:3000/docs)
+- [Jsdocs](https://github.com/401-advanced-javascript-1/lab-11-authentication/tree/submission/docs)
 
 ## Found Bugs:
 - app.js
