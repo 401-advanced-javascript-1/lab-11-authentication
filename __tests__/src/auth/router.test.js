@@ -58,6 +58,22 @@ describe('Auth Router', () => {
           });
       });
 
+      it('can sign-in and go to /books/:id', () => {
+        return mockRequest.get('/books/:1')
+          .auth(users[userType].username, users[userType].password)
+          .then(res => {
+            let title = {title: 'Moby Dick'};
+            expect(res.body).toEqual(title);
+          });
+      });
+      it('/books will fail without authorization', () => {
+        return mockRequest.get('/books/')
+          .then(res => {
+            let result ={ error: 'Invalid User ID/Password' };
+            console.log(res.body);
+            expect(res.body).toEqual(result);
+          });
+      });
     });
     
   });
