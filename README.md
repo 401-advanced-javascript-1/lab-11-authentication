@@ -4,7 +4,7 @@
 This lab contains a server with authentication routes that are currently not working.  Below, the bugs which were fixed to get the server running are reported.
 
 ## Links and Resources
-- [Github Repo](https://github.com/401-advanced-javascript-1/lab-11-authentication)
+- [Github Repo](https://github.com/401-advanced-javascript-1/lab-11-authentication/tree/submission)
 - [Travis](https://www.travis-ci.com/401-advanced-javascript-1/lab-11-authentication)
 
 ## Documentation
