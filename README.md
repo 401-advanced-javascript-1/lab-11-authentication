@@ -12,8 +12,8 @@ This lab contains a server with authentication routes that are currently not wor
 
 ## Found Bugs:
 - app.js
- - app.use(authRouter)
- - app.use(bookRouter)
+  - app.use(authRouter)
+  - app.use(bookRouter)
 
 - router.js
   - should be POST for /signin route
@@ -55,4 +55,4 @@ This lab contains a server with authentication routes that are currently not wor
 - Testing for expected route endpoints is performed using jest.
 
 ## UML
-![alt]()
+![alt](https://github.com/401-advanced-javascript-1/lab-11-authentication/blob/submission/images/authenticaion-UML.JPG)
